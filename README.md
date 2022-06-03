@@ -1,2 +1,2 @@
 ### 🍏Sesac coding Test
-   - 이론:
+   - 이론:  
