@@ -46,6 +46,7 @@
      - Append: 마지막 인덱스에 추가하고 싶을 때 사용한다.
      - 수정도 가능하다.
      - Remove를 사용하면 인덱스를 삭제할 수 있다.
-     - 사용 예제 <img width="474" alt="image" src="https://user-images.githubusercontent.com/77050826/172020992-2c3f9bfe-d4b1-4bd2-b890-7da659383054.png">
-     - 사용 예제2 <img width="543" alt="image" src="https://user-images.githubusercontent.com/77050826/172022608-e7ec85b4-152b-405c-b72c-234ed533ec84.png">
+     - 사용 예제 
+        - <img width="474" alt="image" src="https://user-images.githubusercontent.com/77050826/172020992-2c3f9bfe-d4b1-4bd2-b890-7da659383054.png">
+        - <img width="543" alt="image" src="https://user-images.githubusercontent.com/77050826/172022608-e7ec85b4-152b-405c-b72c-234ed533ec84.png">
 
