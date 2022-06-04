@@ -18,4 +18,5 @@ print(album.count)
 var sample: [Double] = [1, 2.0, 4.0, 5.0]
 var sample2:[[Int]] = [[1,2,3,], [4,5,6]]
 print(sample)
-print(sample2)
+print(sample2[0])
+print(sample2[0][1]) // sample2의 첫번째 인덱스(배열)의 첫번째 값(Int)
