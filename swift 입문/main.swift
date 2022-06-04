@@ -12,3 +12,9 @@ nickname = "MosonLEEE"
 age = 28
 
 print("\(nickname) \(age) \(gender)")
+
+
+//2. WHOAMI
+var birth: Int = 1996
+var day: Int = (2022 - birth) * 365
+print("저는 \(birth)년에 태어났고, 지금까지 \(day)일 째 살고 있습니다.")
