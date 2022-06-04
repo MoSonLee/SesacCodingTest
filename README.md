@@ -48,6 +48,6 @@
      - Remove를 사용하면 인덱스를 삭제할 수 있다.
      - 사용 예제 
         - <img width="474" alt="image" src="https://user-images.githubusercontent.com/77050826/172020992-2c3f9bfe-d4b1-4bd2-b890-7da659383054.png">
-        - <img width="536" alt="image" src="https://user-images.githubusercontent.com/77050826/172022716-490ad809-e845-4308-930f-d7e2e304623b.png">
+        - <img width="547" alt="image" src="https://user-images.githubusercontent.com/77050826/172022780-ea7b344d-8717-4b13-86bd-429f749a5bbb.png">
 
 
