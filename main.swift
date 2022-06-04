@@ -1,21 +1,21 @@
-// 영화 갯수, 러닝타임, 장르, 평점
+//앨범 관리
 
-var movieCount =  Int.random(in: 1...100)
-var movieRuntime = Int.random(in: 100...400)
-var genreList = ["로맨스", "SF", "스릴러", "액션", "코미디"] // 배열
-var movieGenre = genreList.randomElement()!
-var movieRate = Double.random(in: 1...5)
+var album: [String] = ["all", "main album", "드라마", "내가 본 영화"]
 
-print("영화 갯수는 \(movieCount), 영화 시간은 \(movieRuntime), 장르는 \(movieGenre), 평점은 \(movieRate)")
+album.append("꿀잼")
+print(album)
 
-//최근 검색어
-var searchList: [String] = ["원피스", "바지","상의"]
-searchList.insert("외투", at: 0)
-searchList.insert("양말", at: 2)
-searchList.insert(contentsOf:["바이","바위"] , at:0 )
-searchList.append("신발")
-searchList.append(contentsOf: ["하의", "하이", "하위"])
-// searchList.removeAll()
-searchList.remove(at: 0)
+album.remove(at: 0)
+print(album)
+print(album[3])
 
-print(searchList)
+album[3] = "개꿀잼"
+print(album[3])
+print(album.count)
+album.removeAll()
+print(album.count)
+
+var sample: [Double] = [1, 2.0, 4.0, 5.0]
+var sample2:[[Int]] = [[1,2,3,], [4,5,6]]
+print(sample)
+print(sample2)
