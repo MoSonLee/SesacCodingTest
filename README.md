@@ -78,6 +78,7 @@
    - <img width="522" alt="image" src="https://user-images.githubusercontent.com/77050826/172051125-1a84cf86-7591-4cff-a0cf-18fa57022113.png">
       - blackList라는 배열의 값에 userNickname이 contains(포함)된 경우의 조건문
       - ex) if blackList.contains(userNickname) == ture {}
+         - == ture는 생략 가능!
 
 
 
