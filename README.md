@@ -57,7 +57,6 @@
         - var array: Set = [1,2,3,4,4,4,4] -> print하면 [1,2,3,4]가 된다.
      - Set은 집합이기 때문에 배열과 달리 중복 요소들을 허용하지 않는다.
      - 수학적 연산이 가능하다!
-     - ![image](https://user-images.githubusercontent.com/77050826/172046630-af66c021-8105-4191-afd8-b00290fde609.png)
      - <img width="492" alt="image" src="https://user-images.githubusercontent.com/77050826/172046759-79595866-9b1b-43ef-8e81-d8c498f0462b.png">
 
 
