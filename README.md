@@ -49,9 +49,17 @@
      - 사용 예제 
         - <img width="474" alt="image" src="https://user-images.githubusercontent.com/77050826/172020992-2c3f9bfe-d4b1-4bd2-b890-7da659383054.png">
         - <img width="547" alt="image" src="https://user-images.githubusercontent.com/77050826/172022780-ea7b344d-8717-4b13-86bd-429f749a5bbb.png">
+        - 
   - **Set(집합)**
      - 중복되는 요소들은 제거하고 고유한 요소들만 남게 하는 자료형
-     - 타입 추론이 되지 않는다!
+     - 정렬되지 않은 컬렉션이다.
+     - 타입 추론이 되지 않는다! -> 아래와 같이 타입 annotation이 필수적이다.
         - var array: Set = [1,2,3,4,4,4,4] -> print하면 [1,2,3,4]가 된다.
+     - Set은 집합이기 때문에 배열과 달리 중복 요소들을 허용하지 않는다.
      - 수학적 연산이 가능하다!
+     - <img width="442" alt="image" src="https://user-images.githubusercontent.com/77050826/172046929-a3ff34dc-119c-4362-93a3-cf4b11a7cfd8.png">
+
+
+
+
 
