@@ -58,8 +58,31 @@
      - Set은 집합이기 때문에 배열과 달리 중복 요소들을 허용하지 않는다.
      - 수학적 연산이 가능하다!
      - <img width="442" alt="image" src="https://user-images.githubusercontent.com/77050826/172046929-a3ff34dc-119c-4362-93a3-cf4b11a7cfd8.png">
+  
+  - **Dictionaty**
+     - 집단 자료형 중의 하나
+     - 고유한 key값과 key에 해당하는 value로 이루어져있다.(value는 중복되어도 상관 없다.)
+     - 배열의 index와 같은 순서는 없다 -> 순서가 중요하지 않을 때 사용된다.
+     - 선언할 때는 이렇게 한다.
+        - var movie: [String: String] = ["한국": "신과 함께", "일본": "너의 이름은", "미국": "어벤져스"]
+        - key: "한국", "일본", "미국"
+        - value: "신과 함께", "너의 이름은", "어벤져스"
+     - Dictionary에 값을 추가, 수정 삭제 예시
+        - ex) var studnet: [Int: Student] = [1000: "이승후", 1001: "삼승후"] -> Dictionary 선언
+        - student[1002]: "사승후" -> Dictionary에 값 추가
+        - studnet[1000]: "영승후" -> Dictionary의 값 수정
+        - student.updateValue("오승후", forkey: 1004) -> Dictionary에 값 추가
+        - studnet.removeValue(forkey:1004) -> Dictionary안에 있는 값 삭제
+       
+## **조건문**
+   - if else 문에서 else문은 사용하지 않아도 문법적 오류가 나지 않지만 사용자에게 100프로 대응하는 것이 중요하니 써주는 것이 좋다
+   - <img width="522" alt="image" src="https://user-images.githubusercontent.com/77050826/172051125-1a84cf86-7591-4cff-a0cf-18fa57022113.png"></br>
+      - blackList라는 배열의 값에 userNickname이 contains(포함)된 경우의 조건문
+      - ex) if blackList.contains(userNickname) == ture {}
+         - == ture는 생략 가능!
 
-
+## **반복문**
+   - 
 
 
 
