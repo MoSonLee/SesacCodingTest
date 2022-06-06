@@ -81,8 +81,4 @@
       - ex) if blackList.contains(userNickname) == ture {}
          - == ture는 생략 가능!
 
-## **반복문**
-   - 
-
-
 
