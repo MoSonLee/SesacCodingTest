@@ -75,16 +75,11 @@
         - studnet.removeValue(forkey:1004) -> Dictionary안에 있는 값 삭제
        
 ## **조건문**
-   - <img width="522" alt="image" src="https://user-images.githubusercontent.com/77050826/172051125-1a84cf86-7591-4cff-a0cf-18fa57022113.png">
+   - if else 문에서 else문은 사용하지 않아도 문법적 오류가 나지 않지만 사용자에게 100프로 대응하는 것이 중요하니 써주는 것이 좋다
+   - <img width="522" alt="image" src="https://user-images.githubusercontent.com/77050826/172051125-1a84cf86-7591-4cff-a0cf-18fa57022113.png"></br>
       - blackList라는 배열의 값에 userNickname이 contains(포함)된 경우의 조건문
       - ex) if blackList.contains(userNickname) == ture {}
          - == ture는 생략 가능!
-
-
-
-
-
-
 
 ## **반복문**
    - 
