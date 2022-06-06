@@ -1,22 +1,29 @@
-//앨범 관리
+//조건문 - 쿠폰 서비스
 
-var album: [String] = ["all", "main album", "드라마", "내가 본 영화"]
+let order = Int.random(in: 0...30)
 
-album.append("꿀잼")
-print(album)
+if order < 10 {
+  print("5000원 쿠폰 지급!")
+} else {
+  print("10000원 쿠폰 투척")
+}
 
-album.remove(at: 0)
-print(album)
-print(album[3])
+var weight = 124.0
+var height = 1.76
+var bmi = weight / (height * height)
 
-album[3] = "개꿀잼"
-print(album[3])
-print(album.count)
-album.removeAll()
-print(album.count)
+print(bmi)
 
-var sample: [Double] = [1, 2.0, 4.0, 5.0]
-var sample2:[[Int]] = [[1,2,3,], [4,5,6]]
-print(sample)
-print(sample2[0])
-print(sample2[0][1]) // sample2의 첫번째 인덱스(배열)의 첫번째 값(Int)
+if bmi <= 18.5 {
+  print("저체중")
+} else if bmi <= 23 {
+  print("정상")
+} else if bmi <= 25 {
+  print("과체중")
+} else if bmi <= 30 {
+  print("비만")
+} else if bmi >= 30 {
+  print("고도비만")
+} else {
+  print("잘못된 값입니다.")
+}
