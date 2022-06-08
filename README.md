@@ -84,13 +84,22 @@
 ## **문법 쓰는법**
    - contains
       - blacklistArray.contains(chatArray[i])<br>
-      - 블랙리스트에 포함된게 있는지 확인할 때
+      - 블랙리스트에 포함된게 있는지 확인할 때</br>
    - append
-      - 집단 자료형 마지막 인덱스에 추가할 때
-      - numberList.append(number)
+      - 집단 자료형 마지막 인덱스에 추가할 때</br>
+      - numberList.append(number)</br>
    - random
       - Int: Int.random(in: 1...100)</br>
       - 배열: List(배열 이름).randomElement()!</br>
-         - 배열이 비어있을 수도 있으니 옵셔널 해제 잊지말기(!)
-   - 
+         - 배열이 비어있을 수도 있으니 옵셔널 해제 잊지말기(!)</br>
+   - 집단 자료형 set 수학적 연산
+      - https://github.com/MoSonLee/SesacCodingTest/blob/main/SesacTest/example6.swift</br>
+   - Dictionary에 값 추가하거나 지워줄때
+      - student.updateValue("오승후", forKey: 1004) -> updateValue할 때는 forkey와 같이 추가해줘야함</br>
+      - student.removeValue(forKey: 1004) -> removeValue할 때는 forkey만 지워주면 됨</br>
+   - String forkey를 가지고 value값이 다시 배열일 때
+      - var movie: [String: [String]] = [
+                              "한국": ["신", "괴물", "명량"],
+                            "일본": ["너의 이름", "나는 어제의 너"] ]
+   - 배열 선언할 때: var array: [Int] = [] 
 
