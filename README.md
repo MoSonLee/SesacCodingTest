@@ -81,4 +81,16 @@
       - ex) if blackList.contains(userNickname) == ture {}
          - == ture는 생략 가능!
 
+## **문법 쓰는법**
+   - contains
+      - blacklistArray.contains(chatArray[i])<br>
+      - 블랙리스트에 포함된게 있는지 확인할 때
+   - append
+      - 집단 자료형 마지막 인덱스에 추가할 때
+      - numberList.append(number)
+   - random
+      - Int: Int.random(in: 1...100)</br>
+      - 배열: List(배열 이름).randomElement()!</br>
+         - 배열이 비어있을 수도 있으니 옵셔널 해제 잊지말기(!)
+   - 
 
